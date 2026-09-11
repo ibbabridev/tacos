@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tacos Zacatecas</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="hero">
+        <img src="assets/imagenes/hero.jpg" class="hero-image">
+        <h1>Welcome to Tacos Zacatecas</h1>
+        <p>Enjoy authentic Mexican tacos with a twist</p>
+    </header>
+
+    <a href="#menu">
+        <button>Menú</button>
+    </a>
+
+    <section id="menu">
+        <h2>Menú</h2>
+        
+
+        <div class="selector-categorias">
+
+            <button id="btn-mexicanfood" class="categoria">
+                MEXICAN FOOD
+            </button>
+
+	    <button id="btn-tacos" class="categoria">
+                TACOS
+            </button>
+
+	    <button id="btn-burgers" class="categoria">
+                BURGERS
+            </button>
+
+	    <button id="btn-sandwiches" class="categoria">
+                SANDWICHES
+            </button>
+            
+	    <button id="btn-burritos" class="categoria">
+                BURRITOS
+            </button>
+
+	    <button id="btn-salads" class="categoria">
+                SALADS
+            </button>
+
+	    <button id="btn-pizza" class="categoria">
+                PIZZA
+            </button>
+
+	    <button id="btn-kidsmenu" class="categoria">
+                KIDS MENU
+            </button>
+
+	    <button id="btn-todaysspecial" class="categoria">
+                TODAYS SPECIAL
+            </button>
+
+	    <button id="btn-speciality" class="categoria">
+                SPECIALITY 
+            </button>
+
+	    <button id="btn-beverages" class="categoria">
+                 BEVERAGES
+            </button>
+        </div>
+
+        <div id="contenido-menu">
+            <h2 id="titulo-menu"></h2> 
+            <img id="imagen-menu"> 
+            <div id="elementos-menu"></div>
+        </div>
+
+
+    </section>
+ <!-- Popup para imagen ampliada -->
+    <div id="popup-imagen" class="popup-overlay">
+        <div class="popup-contenido">
+            <button id="cerrar-popup" class="boton-cerrar">✕</button>
+            <img id="imagen-ampliada" alt="Imagen ampliada del platillo">
+        </div>
+    </div>
+
+    <footer class="footer">
+        <h3>VISIT US</h3>
+        <p>2104 N Norwood AVE Pueblo Co. 81001</p>
+        <p>Monday__________: 11:00 AM - 4:00 PM</p>
+        <p>Tuesday to Saturday: 11:00 AM - 9:00 PM</p>
+        <p>Sunday: closed</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

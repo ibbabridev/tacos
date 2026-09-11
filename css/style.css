@@ -1,0 +1,140 @@
+body {
+    background-color: #87CEEB;
+    font-family: Arial;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h1 {
+    color: white;
+}
+
+button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    padding-top: 1px;
+}
+
+.hero-image {
+     width: 100%;
+    max-width: 100%;
+    height: 200px;
+    border-radius: 30px;
+}
+
+
+.menu-image {
+    width: 90%;
+    max-width: 90%;
+    border-radius: 20px;
+}
+
+/* Selector de categorías */
+
+.selector-categorias {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.categoria {
+    width: 100%;
+    height: 100px;
+    color: orange;
+    text-shadow:
+        -2px -2px 0 yellow,
+         2px -2px 0 yellow,
+        -2px  2px 0 yellow,
+         2px  2px 0 yellow;
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: 2px solid #e63946;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.categoria:hover {
+    background-color: #e63946;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(230, 57, 70, 0.3);
+}
+
+.categoria.activa {
+    background-color: #e63946;
+    color: white;
+}
+
+
+#btn-mexicanfood {
+    background-image: url("../assets/imagenes/TACOSCABEZA.jpg");
+}
+
+#btn-tacos {
+    background-image: url("../assets/imagenes/tacosPastor.jpg");
+}
+
+#btn-burgers {
+    background-image: url("../assets/imagenes/tacosPastor.jpg");
+}
+
+#btn-sandwiches {
+    background-image: url("../assets/imagenes/tacosPastor.jpg");
+}
+
+#btn-burritos {
+    background-image: url("../assets/imagenes/tacosPastor.jpg");
+}
+
+#btn-salads {
+    background-image: url("../assets/imagenes/tacosPastor.jpg");
+}
+
+#btn-pizza {
+    background-image: url("../assets/imagenes/tacosPastor.jpg");
+}
+
+#btn-kidsmenu {
+    background-image: url("../assets/imagenes/tacosPastor.jpg");
+}
+
+#btn-todaysspecial {
+    background-image: url("../assets/imagenes/tacosPastor.jpg");
+}
+
+#btn-speciality {
+    background-image: url("../assets/imagenes/tacosPastor.jpg");
+}
+
+#btn-beverages {
+    background-image: url("../assets/imagenes/tacosPastor.jpg");
+}
+
+
+.footer {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: white;
+}
+
+.footer h3 {
+    margin-bottom: 15px;
+}
+
+.footer p {
+    margin: 5px;
+}
