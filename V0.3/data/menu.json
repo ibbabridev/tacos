@@ -1,0 +1,76 @@
+{
+  "categories": [
+    {
+      "name": "1",
+      "dishes": [
+        { "name": "Platillo 1", "description": "Descripción del platillo 1.", "price": 50 },
+        { "name": "Platillo 1", "description": "Descripción del platillo 1.", "price": 50 },
+        { "name": "Platillo 21", "description": "Descripción del platillo 21.", "price": 89 },
+        { "name": "Platillo 22", "description": "Descripción del platillo 22.", "price": 67 }
+      ]
+    },
+    {
+      "name": "2",
+      "dishes": [
+        { "name": "Platillo 3", "description": "Descripción del platillo 3.", "price": 70 },
+        { "name": "Platillo 4", "description": "Descripción del platillo 4.", "price": 80 }
+      ]
+    },
+    {
+      "name": "3",
+      "dishes": [
+        { "name": "Platillo 5", "description": "Descripción del platillo 5.", "price": 90 },
+        { "name": "Platillo 6", "description": "Descripción del platillo 6.", "price": 100 }
+      ]
+    },
+    {
+      "name": "4",
+      "dishes": [
+        { "name": "Platillo 7", "description": "Descripción del platillo 7.", "price": 110 },
+        { "name": "Platillo 8", "description": "Descripción del platillo 8.", "price": 120 }
+      ]
+    },
+    {
+      "name": "5",
+      "dishes": [
+        { "name": "Platillo 9", "description": "Descripción del platillo 9.", "price": 130 },
+        { "name": "Platillo 10", "description": "Descripción del platillo 10.", "price": 140 }
+      ]
+    },
+    {
+      "name": "6",
+      "dishes": [
+        { "name": "Platillo 11", "description": "Descripción del platillo 11.", "price": 150 },
+        { "name": "Platillo 12", "description": "Descripción del platillo 12.", "price": 160 }
+      ]
+    },
+    {
+      "name": "7",
+      "dishes": [
+        { "name": "Platillo 13", "description": "Descripción del platillo 13.", "price": 170 },
+        { "name": "Platillo 14", "description": "Descripción del platillo 14.", "price": 180 }
+      ]
+    },
+    {
+      "name": "8",
+      "dishes": [
+        { "name": "Platillo 15", "description": "Descripción del platillo 15.", "price": 190 },
+        { "name": "Platillo 16", "description": "Descripción del platillo 16.", "price": 200 }
+      ]
+    },
+    {
+      "name": "9",
+      "dishes": [
+        { "name": "Platillo 17", "description": "Descripción del platillo 17.", "price": 210 },
+        { "name": "Platillo 18", "description": "Descripción del platillo 18.", "price": 220 }
+      ]
+    },
+    {
+      "name": "10",
+      "dishes": [
+        { "name": "Platillo 19", "description": "Descripción del platillo 19.", "price": 230 },
+        { "name": "Platillo 20", "description": "Descripción del platillo 20.", "price": 240 }
+      ]
+    }
+  ]
+}

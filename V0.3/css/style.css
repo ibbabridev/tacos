@@ -1,0 +1,129 @@
+/* Reset mínimo */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tipografía y página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #ffffff;
+    color: #222222;
+}
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+/* Categorías */
+.categories {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+    margin-bottom:  24px;
+}
+
+.categories button {
+    aspect-ratio: 1/1;
+    cursor: pointer;
+}
+
+.dishes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.dish-card {
+   border: 1px solid #dddddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #ffffff;
+
+    cursor: pointer;
+    transition: transform 0.1s ease;
+}
+
+/* Efecto mientras se presiona */
+.dish-card:active {
+    transform: scale(0.97);
+}
+
+.dish-card img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.dish-card-content { padding: 16px; }
+.dish-card-content h2 { font-size: 1.2rem; margin-bottom: 8px; }
+.dish-card-content p  { margin-bottom: 8px; }
+.dish-price { font-weight: bold; font-size: 1.1rem; }
+
+
+
+
+/* Modal */
+.modal {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-y: auto;
+
+    display: none;
+}
+
+/* Mostrar modal */
+.modal.is-open {
+    display: block;
+}
+
+/* Contenido */
+.modal-content {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fffaff;
+    border-radius: 8px;
+}
+
+/* Botón de cierre */
+.modal__close {
+    display: block;
+    margin-left: auto;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* Imagen grande */
+.modal__image {
+    display: block;
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Información */
+.modal__name {
+    margin: 12px 0;
+}
+
+.modal__description {
+    margin-bottom: 12px;
+}
+
+.modal__price {
+    font-weight: bold;
+}

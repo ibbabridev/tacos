@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Menú</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <main id="app">
+
+        <section class="categories">
+	    <button data-category="1">TODAYS SPECIAL</button>
+            <button data-category="2">MEXICAN FOOD</button>
+            <button data-category="3">TACOS</button>
+            <button data-category="4">BURGERS</button>
+	    <button data-category="5">SANDWICHES</button>
+            <button data-category="6">BURRITOS</button>
+            <button data-category="7">SALADS</button>
+	    <button data-category="8">PIZZA</button>
+            <button data-category="9">KIDS MENU</button>
+	    <button data-category="10">BEVERAGES</button>
+        </section>
+
+        <section class="dishes-grid">
+
+        </section>
+
+<div class="modal" id="dish-modal">
+    <div class="modal-content">
+        <button class="modal__close" id="modal-close">×</button>
+
+        <img class="modal__image"
+             src="https://via.placeholder.com/400x300"
+             alt="">
+
+        <h2 class="modal__name"></h2>
+        <p class="modal__description"></p>
+        <p class="modal__price"></p>
+    </div>
+</div>
+
+    </main>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
